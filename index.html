@@ -1,11 +1,141 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="ja">
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Document</title>
+  <link rel="stylesheet" href="styles.css">
+  <title>COACHTECH</title>
 </head>
 <body>
+  <header>
+    <div class="nav">
+
+      <h3 class="estra">estra inc.</h3>
+      <ul>
   
+        <li><a href="#">home</a></li>
+        <li><a href="#">about</a></li>
+        <li><a href="#">service</a></li>
+        <li><a href="#">works</a></li>
+        <li><a href="#">price</a></li>
+        <li><a href="#">contact</a></li>
+        
+      </ul>
+    </div>
+    <div class="img1">
+      <img src="img/bg1.jpg">
+      <h1>estra</h1>
+    </div>
+  </header>
+  <main class="main1">
+    <h1>about</h1>
+    <img src="img/bg2.jpg" class="img2">
+
+    <div class="estra2">
+
+      <h2>estra.inc</h2>
+      <p>
+        私たちは、お客様の満足度を徹底的に追及することで、客様・市場・<br>時代のニーズを的確に捉え、事業の拡大と周辺ビジネスによる差別化、<br>業界における圧倒的な地位の確率を図るべく積極的な事業活動を行って<br>います。
+      </p>
+      
+      <ol>
+        <li>コーチング事業</li>
+        <li>プログラミング事業</li>
+        <li>SaaS事業</li>
+      </ol>
+    </div>
+    </main>
+
+  <main class="main2">
+    <div class="mori">
+      <img src="img/bg3.jpg">
+    </div>
+    <h1>service</h1>
+    <div class="container">
+      <div class="a"> <img src="img/business-icon.png"><h2>ビジネスA</h2> 
+        <p>ビジネスの説明が入ります。ビジネスの説明<br>が入ります。ビジネスの説明が入ります。ビジ<br>ネスの説明が入ります。
+        </p></div>
+
+      <div class="b"><img src="img/business-icon.png"><h2>ビジネスB</h2> 
+        <p>ビジネスの説明が入ります。ビジネスの説明<br>が入ります。ビジネスの説明が入ります。ビジ<br>ネスの説明が入ります。</p></div>
+
+      <div class="c"><img src="img/business-icon.png"><h2>ビジネスC</h2> 
+        <p>ビジネスの説明が入ります。ビジネスの説明<br>が入ります。ビジネスの説明が入ります。ビジ<br>ネスの説明が入ります。</p></div>
+    </div>
+  </main>
+
+  <main class="main3">
+
+      <h1>company</h1>
+      <table>
+        <tr>
+          <th>会社名</th>
+          <td>株式会社estra</td>
+        </tr>
+        <tr>
+          <th>代表者名</th>
+          <td>福場凛太朗</td>
+        </tr>
+        <tr>
+          <th>本社所在地</th>
+          <td>東京都渋谷区1-1</td>
+        </tr>
+        <tr>
+          <th>従業員数</th>
+          <td>100名</td>
+        </tr>
+        <tr>
+          <th>電話番号</th>
+          <td>0120-000-0000</td>
+        </tr>
+        <tr>
+          <th>FAX</th>
+          <td>0120-000-0000</td>
+        </tr>
+        <tr>
+          <th>メールアドレス</th>
+          <td>rintaro@estra.inc</td>
+        </tr>
+        <tr>
+          <th>資本金</th>
+          <td>1000万</td>
+        </tr>
+        <tr>
+          <th>事業内容</th>
+          <td>コーチング</td>
+        </tr>
+        
+      </table>
+  </main>
+
+  <main class="main4">
+   <div id="contact">
+     <h1>contact</h1>
+     <form class="form" method="post">
+       <div>
+         <label for="name">Name:</label>
+         <input type="text" id="name" name="user_name">
+       </div>
+       <div>
+         <label for="mail">E-mail:</label>
+         <input type="email" id="mail" name="user_mail">
+       </div>
+       <div>
+         <label for="tel">Tell:</label>
+         <input type="tel" id="tel" name="user_tel">
+       </div>
+       <div>
+         <label for="msg">Message:</label>
+         <textarea id="msg" name="user_message"></textarea>
+       </div>
+       <div class="button-submit">
+       <button class="button" type="submit">Button</button>
+       </div>
+     </form>
+   </div>
+  </main>
+  <footer id="footer">
+    <small>Copyright 2019 estra inc. All Rights Reserved.</small>
+  </footer>
 </body>
 </html>
