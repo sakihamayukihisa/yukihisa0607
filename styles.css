@@ -105,26 +105,33 @@ input, select {
 
 
 header .yokonarabi {
+    display: flex;
+    align-items: center;
     background: black;
-    height: 30px;
+    height: 40px;
 }
 
-header h1 {
-    color: white;
-    padding-top: 7.5px;
-    padding-left: 15px;
+    header h1 {
     display: inline-block;
+    color: white;
+    padding-left: 15px; 
+    width: 50%;
 }
 
 header .flex {
     display: inline-block;
-    position: relative;
-    left: 780px;
+    display: flex;
+    justify-content: flex-end; 
+    width: 50%;
+}
+
+header .flex .margin {
+    margin-right: 20px;
 }
 
 header li {
     display: inline-block;
-    margin: 0 5px;
+    padding: 0 10px;
 }
 
 header ul li a {
@@ -132,7 +139,7 @@ header ul li a {
     text-decoration: none;
 }
 
-.example {
+#main1 {
     position: relative;
 }
 
@@ -193,10 +200,15 @@ header ul li a {
     background: black;
     position: relative;
     bottom: 4px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
     /* 隙間が空いていたのでポジションプロパティで上に４ｐｘ幅寄せした。 */
 }
 
 .unko img {
+    display: flex;
+    align-items: center;
     position: absolute;
     left: 810px;
     top: 130px;
@@ -205,9 +217,12 @@ header ul li a {
 
 .kyaku {
     /* background: cadetblue; */
+    height: 150px;
+    width: 65%;
     position: absolute;
-    left: 100px;
-    top: 150px;
+    left: 50%;
+    top: 50%; 
+    transform: translate(-50% , -50%);
     z-index: 20;
 }
 
@@ -259,8 +274,8 @@ header ul li a {
 
 .web-work {
     position: relative;
-    top:140px;
-    left: 200px;
+    top:100px;
+    left: 230px;
     width: 35%;
     height: 150px;
     background: white;
@@ -270,18 +285,25 @@ header ul li a {
 
 .web-work .web-seisaku {
     position: absolute;
-    top: 25px;
+    top: 50px;
     left: 50px;
     color: black;
 }
 
 .web-work .mission {
+    position: absolute;
+    top: 75px;
+    left: 50px;
     margin: 10px 0;
 }
 
 .web-work p {
+    position: absolute;
+    top: 110px;
+    left: 50px;
     line-height: 1.5;
     font-size: 12px;
+    margin-right: 50px;
 }
 
 .web-work button {
@@ -289,8 +311,9 @@ header ul li a {
     background: white;
     position: absolute;
     bottom: 60px;
-    right: 56px;
+    right: 60px;
     font-weight: bold;
+    padding: 5px 20px;
 }
 
 .web-work button a {
@@ -302,14 +325,14 @@ header ul li a {
 
 #service-content2 img {
     position: absolute;
-    top: 650px;
+    top: 630px;
     left: 0;
     z-index: 10;
 }
 
 .web-work2 {
     position: relative;
-    top:520px;
+    top:510px;
     left: 500px;
     width: 35%;
     height: 150px;
@@ -320,26 +343,31 @@ header ul li a {
 
 .web-work2 .web-seisaku2 {
     position: absolute;
-    top: 25px;
+    top: 50px;
     left: 50px;
     color: black;
 }
 
 .web-work2 .mission2 {
+    position: absolute;
+    top: 80px;
     margin: 10px 0;
 }
 
 .web-work2 p {
+    position: absolute;
+    top: 110px;
     line-height: 1.5;
     font-size: 12px;
+    margin-right: 50px;
 }
 
 .web-work2 button {
     border: 1px solid black;
     background: white;
     position: absolute;
-    bottom: 60px;
-    right: 56px;
+    bottom: 70px;
+    right: 60px;
     font-weight: bold;
 }
 
@@ -424,13 +452,18 @@ header ul li a {
 #mori {
     margin-top: 200px;
     position: relative;
+    display: flex;
+    
 }
 
 #mori .center {
+    /* background: chartreuse; */
     text-align: center;
     position: absolute;
-    top: 150px;
-    left: 30px;
+    width: 80%;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50% , -50%);
 }
 
 #mori .contact {
