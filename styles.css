@@ -534,5 +534,77 @@ body {
     /* デスクトップのナビを消す */
 }
 
+
+#firstview {
+  flex-wrap: wrap;
+}
+
+.catchcopy {
+  flex-wrap: wrap;
+  width: 80%;
+  position: absolute;
+  top: 38%;
+}
+
+.news {
+  width: 100%;
+}
+
+.mission{
+  width: 100%;
+}
+
+.mission-content {
+  width: 80%;
+}
+
+.service{
+  width: 100%;
+  display: block;
+}
+
+.service-content {
+  position: relative;
+  margin: 0 auto;
+  height: 500px;
+  width: 90%;
+  display: block;
+  /* background: chartreuse; */
+}
+
+.service-img {
+  position: absolute;
+  top: 0;
+  margin: 0 auto;
+  width: 100%;
+  height: 200px;
+}
+
+.service-content_inner {
+  position: absolute;
+  top: 200px;
+  left: 0;
+  margin: 0 auto;
+  width: 100%;
+  height: 300px;
+}
+
+.company {
+  width: 100%;
+}
+
+.recruit-company_size {
+  flex-wrap: wrap;
+  width: 100%;
+}
+
+.faq {
+  width: 100%;
+}
+
+.header-logo {
+  margin: 0 auto;
+}
+
 }
 
